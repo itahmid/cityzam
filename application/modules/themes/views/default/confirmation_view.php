@@ -77,7 +77,7 @@
 
                     <input type="hidden" name="amount" value="<?php echo $package->price;?>">
 
-                    <input type="hidden" name="currency_code" value="<?php echo get_settings('paypal_settings','currency','USD');?>">
+                    <input type="hidden" name="currency_code" value="<?php echo get_settings('paypal_settings','currency','INR');?>">
 
                     <input type="hidden" name="no_note" value="1">
 

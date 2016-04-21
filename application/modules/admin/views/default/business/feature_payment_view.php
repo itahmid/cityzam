@@ -11,7 +11,7 @@
             <div class="box-content">
                 <?php echo $this->session->flashdata('msg'); ?>
                 <label>Post ID: #<?php echo $post->id;?></label>
-                <p>You'll have to pay <?php echo get_settings('business_settings','feature_charge','0').' '.get_settings('paypalsettings','currency','USD');?> and your property will be
+                <p>You'll have to pay <?php echo get_settings('business_settings','feature_charge','0').' '.get_settings('paypalsettings','currency','INR');?> and your property will be
                     Featured for <?php echo get_settings('business_settings','feature_day_limit','0');?> days</p>
 
                 <?php if(get_settings('business_settings','enable_paypal_transfer','Yes')=='Yes'){?>
@@ -24,7 +24,7 @@
                     <input type="hidden" name="lc" value="US">
                     <input type="hidden" name="item_name" value="Make Property Feature">
                     <input type="hidden" name="amount" value="<?php echo get_settings('business_settings','feature_charge','0');?>">
-                    <input type="hidden" name="currency_code" value="<?php echo get_settings('paypal_settings','currency','USD');?>">
+                    <input type="hidden" name="currency_code" value="<?php echo get_settings('paypal_settings','currency','INR');?>">
                     <input type="hidden" name="no_note" value="1">
                     <input type="hidden" name="no_shipping" value="1">
                     <input type="hidden" name="rm" value="1">

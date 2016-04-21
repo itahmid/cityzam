@@ -569,7 +569,8 @@ thursday: Thursday
 friday: Friday
 saturday: Saturday
 sunday: Sunday
-opening_hour: Opening Hour
+business_days: Monday to Friday
+opening_hour: Business Hour
 closed: Closed
 airport: Airport
 cafe: Cafe
@@ -585,18 +586,18 @@ social_links: Social links
 upgrade_browser: Upgrade browser
 please_upgrade_your_browser: Please upgrade your browser
 business: Business
-introduction: Introduction
-terms: Terms and condition
-email_not_found: Email not found
-city_dropdown: City dropdown
+introduction: Basic Introduction
+terms: Terms & Condition
+email_not_found: Email Address not found
+city_dropdown: City List
 published: Published
 publish: Publish
 drafted: Drafted
 draft: Draft
 from: From
 send_bulk_email: Send Bulk Email
-ive_read_the: I've read the
-title_city_category: Title, city or category
+ive_read_the: I've read the 
+title_city_category: Title, City or Category
 dt_first: First
 dt_last: Last
 dt_next: Next

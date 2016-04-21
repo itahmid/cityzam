@@ -197,7 +197,9 @@
 
 
                         <?php
-                        $days = array(1 => 'monday', 2 => 'tuesday', 3=>'wednesday', 4=> 'thursday', 5=> 'friday', 6=> 'saturday', 7 =>'sunday');
+                        // $days = array(1 => 'monday', 2 => 'tuesday', 3=>'wednesday', 4=> 'thursday', 5=> 'friday', 6=> 'saturday', 7 =>'sunday');
+                        $days = array(1 => 'business_days', 2 => 'saturday', 3 =>'sunday');
+
                         $opening_hour = ($post->opening_hour!='')?(array)json_decode($post->opening_hour):array();                        
 
                         foreach($days as $key => $day){

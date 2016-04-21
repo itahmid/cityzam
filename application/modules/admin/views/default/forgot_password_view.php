@@ -34,7 +34,7 @@
            </div>
            
             <div style="text-align:center">
-                <img src="<?php echo base_url('assets/images/logo_webhelios_64.png');?>" style="height:60px; margin:20px 0px 0px;" />
+                <img src="<?php echo base_url('assets/images/logo_default_64.png');?>" style="height:60px; margin:20px 0px 0px;" />
             </div>
 
         <div class="form-group">

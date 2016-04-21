@@ -30,9 +30,9 @@
 	<input type="password" name="re_password" class="input-xxlarge" >
 	<?php echo form_error('re_password'); ?>
 	<label>Encryption Key :</label> 
-	<input type="text" name="enc_key" value="<?php if(set_value('enc_key')!='')echo set_value('enc_key');else echo 'dbc';?>" class="input-xxlarge" >
+	<input type="text" name="enc_key" value="<?php if(set_value('enc_key')!='')echo set_value('enc_key');else echo 'zam';?>" class="input-xxlarge" >
 	<?php echo form_error('enc_key'); ?>	
     <div style="clear:both;"></div> 
-<button type="submit" class="btn btn-success">Save & Next</button>
+<button type="submit" class="btn btn-success">Save &amp; Next</button>
 </fieldset>
 </form>

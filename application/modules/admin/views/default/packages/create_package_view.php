@@ -50,7 +50,7 @@
         </div>
 
         <div class="form-group">
-          <label class="col-sm-2 col-lg-3 control-label"><?php echo lang_key('price');?> <?php echo get_currency_icon(get_settings('paypal_settings','currency','USD')).'('.get_settings('paypal_settings','currency','USD').')';?>:</label>
+          <label class="col-sm-2 col-lg-3 control-label"><?php echo lang_key('price');?> <?php echo get_currency_icon(get_settings('paypal_settings','currency','INR')).'('.get_settings('paypal_settings','currency','INR').')';?>:</label>
           <div class="col-sm-4 col-lg-5 controls">
             <input type="text" name="price" value="<?php echo(set_value('price')!='')?set_value('price'):'';?>" placeholder="<?php echo lang_key('price');?>" class="form-control input-sm" >
             <?php echo form_error('price'); ?>

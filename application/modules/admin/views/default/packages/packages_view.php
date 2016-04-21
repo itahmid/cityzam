@@ -59,7 +59,7 @@
 
 
 
-                                <th class="numeric"><?php echo lang_key('price');?> <?php echo get_currency_icon(get_settings('paypal_settings','currency','USD')).'('.get_settings('paypal_settings','currency','USD').')';?></th>
+                                <th class="numeric"><?php echo lang_key('price');?> <?php echo get_currency_icon(get_settings('paypal_settings','currency','INR')).'('.get_settings('paypal_settings','currency','INR').')';?></th>
 
 
 
@@ -104,7 +104,7 @@
 
 
 
-                                    <td data-title="<?php echo lang_key('price');?> <?php echo get_currency_icon(get_settings('paypal_settings','currency','USD')).'('.get_settings('paypal_settings','currency','USD').')';?>" class="numeric">
+                                    <td data-title="<?php echo lang_key('price');?> <?php echo get_currency_icon(get_settings('paypal_settings','currency','INR')).'('.get_settings('paypal_settings','currency','INR').')';?>" class="numeric">
 
                                         <?php 
 

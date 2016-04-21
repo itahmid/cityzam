@@ -475,18 +475,18 @@ class Account_core extends CI_Controller {
 		    {
 		    	$order 		= $order->row();
 		    	$order_id 	= $order->id;
-		    	//$this->send_notification_mail('within valid order block');
+		    	//$this->send_notification_mail('within valid order block');INR
 
 			    $my_receiver_email = get_settings('paypal_settings','email','none');
 			    
 			    $msg =  'Status : '.$payment_status.'|'.
 			    		'emails :'.$my_receiver_email.' = '.$receiver_email.
 			    		'amount : '.$order->amount.' = '.$payment_amount.
-			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','USD');
+			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','INR');
 
 			    //$this->send_notification_mail($msg);
 		    	if($payment_status=='Completed' /*&& $this->register_model->check_txn_id($txn_id)==TRUE*/ && 
-		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','USD'))
+		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','INR'))
 		    	{
 		    		# process payment
 		    		$response = serialize($_POST);
@@ -644,11 +644,11 @@ class Account_core extends CI_Controller {
 			    $msg =  'Status : '.$payment_status.'|'.
 			    		'emails :'.$my_receiver_email.' = '.$receiver_email.
 			    		'amount : '.$order->amount.' = '.$payment_amount.
-			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','USD');
+			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','INR');
 
 			    #$this->send_notification_mail($msg);
 		    	if($payment_status=='Completed' /*&& $this->register_model->check_txn_id($txn_id)==TRUE*/ && 
-		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','USD'))
+		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','INR'))
 		    	{
 		    		# process payment
 		    		$response = serialize($_POST);

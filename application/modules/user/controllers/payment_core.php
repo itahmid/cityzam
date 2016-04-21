@@ -679,7 +679,7 @@ class Payment_core extends MX_Controller {
 
 			    		'amount : '.$order->amount.' = '.$payment_amount.
 
-			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','USD');
+			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','INR');
 
 
 
@@ -687,7 +687,7 @@ class Payment_core extends MX_Controller {
 
 		    	if($payment_status=='Completed' /*&& $this->register_model->check_txn_id($txn_id)==TRUE*/ && 
 
-		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','USD'))
+		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','INR'))
 
 		    	{
 
@@ -1091,7 +1091,7 @@ class Payment_core extends MX_Controller {
 
 			    		'amount : '.$order->amount.' = '.$payment_amount.
 
-			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','USD');
+			    		'curr :'.$payment_currency.' = '.get_settings('paypal_settings','currency','INR');
 
 
 
@@ -1099,7 +1099,7 @@ class Payment_core extends MX_Controller {
 
 		    	if($payment_status=='Completed' /*&& $this->register_model->check_txn_id($txn_id)==TRUE*/ && 
 
-		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','USD'))
+		    	   $my_receiver_email==$receiver_email && $order->amount==$payment_amount && $payment_currency==get_settings('paypal_settings','currency','INR'))
 
 		    	{
 

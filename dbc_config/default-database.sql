@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 05, 2015 at 06:00 AM
+-- Generation Time: Mar 05, 2016 at 06:00 AM
 -- Server version: 5.5.35-cll-lve
 -- PHP Version: 5.4.23
 
@@ -279,7 +279,7 @@ INSERT INTO `db_tabprefixoptions` (`id`, `key`, `values`, `status`) VALUES
 (4, 'top_menu', '[{"id":"1","parent":0},{"id":"10","parent":0},{"id":"2","parent":0},{"id":"9","parent":0},{"id":"5","parent":"9"},{"id":"11","parent":"9"},{"id":"3","parent":"9"},{"id":"6","parent":"9"},{"id":"7","parent":"9"},{"id":"8","parent":"9"},{"id":"4","parent":0}]', 1),
 (5, 'purchase_key', '', 1),
 (6, 'item_id', '', 1),
-(7, 'paypal_settings', '{"enable_sandbox_mode":"Yes","enable_sandbox_mode_rules":"required","item_name":"Publish Business","item_name_rules":"required","email":"seller@paypalsandbox.com","email_rules":"required","currency":"USD","currency_rules":"required","finish_url":"user\\/payment\\/finish_url","finish_url_rules":"required","cancel_url":"user\\/payment\\/cancel_url","cancel_url_rules":"required"}', 1),
+(7, 'paypal_settings', '{"enable_sandbox_mode":"Yes","enable_sandbox_mode_rules":"required","item_name":"Publish Business","item_name_rules":"required","email":"seller@paypalsandbox.com","email_rules":"required","currency":"INR","currency_rules":"required","finish_url":"user\\/payment\\/finish_url","finish_url_rules":"required","cancel_url":"user\\/payment\\/cancel_url","cancel_url_rules":"required"}', 1),
 (8, 'banner_settings', '{"top_bar_bg_color":"#fdfdfd","menu_bg_color":"#ffffff","menu_text_color":"#666","active_menu_text_color":"#32c8de","banner_type":"Layer Slider","search_panel_bg_color":"#9fee9b","show_bg_image":false,"search_bg":"vacation_house_interior-wallpaper-1920x1200-1920x664.jpg","map_latitude":"34.0204989","map_longitude":"-118.4117325","map_zoom":"7"}', 1),
 (9, 'webadmin_email', '{"contact_email":"support@yourdomain.com","webadmin_name":"Webadmin","webadmin_email":"support@yourdomain.com"}', 1),
 (10, 'smtp_settings', '{"smtp_email":"Disable","smtp_email_rules":"required","smtp_host":"ssl:\\/\\/smtp.googlemail.com","smtp_host_rules":"required","smtp_port":"465","smtp_port_rules":"required","smtp_timeout":"30","smtp_timeout_rules":"required","smtp_user":"test@example.com","smtp_user_rules":"required|valid_email","smtp_pass":"1234","smtp_pass_rules":"required","char_set":"utf-8","char_set_rules":"required","new_line":"\\\\r\\\\n","new_line_rules":"required","mail_type":"html","mail_type_rules":"required"}', 1),

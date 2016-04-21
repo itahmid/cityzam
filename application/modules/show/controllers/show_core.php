@@ -35,11 +35,11 @@ class Show_core extends CI_controller {
         $system_currency_type = get_settings('business_settings','system_currency_type',0);
         if($system_currency_type == 0)
         {
-            $system_currency = get_currency_icon(get_settings('business_settings','system_currency','USD'));
+            $system_currency = get_currency_icon(get_settings('business_settings','system_currency','INR'));
         }
         else
         {
-            $system_currency = get_settings('business_settings','system_currency','USD');
+            $system_currency = get_settings('business_settings','system_currency','INR');
         }
 
         $this->session->set_userdata('system_currency',$system_currency);
