@@ -476,9 +476,7 @@ class Account_core extends CI_Controller {
 		    	$order 		= $order->row();
 		    	$order_id 	= $order->id;
 		    	//$this->send_notification_mail('within valid order block');INR
-
 			    $my_receiver_email = get_settings('paypal_settings','email','none');
-			    
 			    $msg =  'Status : '.$payment_status.'|'.
 			    		'emails :'.$my_receiver_email.' = '.$receiver_email.
 			    		'amount : '.$order->amount.' = '.$payment_amount.
