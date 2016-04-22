@@ -1,0 +1,12 @@
+Defaults: WebUser
+User Name: admin
+User Email: itahmid@outlook.com
+User Password: Zaq1Mko)
+Encryption Key: C1tyZ@m
+
+
+Defaults: Developer
+DBUser: dbadmin
+DBPass: 123456
+DBTag: cz_
+
